@@ -1,10 +1,12 @@
 # Part B — System Design
 #
-# This utility function exists in three of our repos right now —
-# the Dagster orchestration code, the dbt runner, and the agent eval framework.
-# Each copy has drifted slightly. You've been asked to extract it into a single
-# internal shared Python package that all three consume.
-# Walk through how you'd design it.
+# CONTEXT: This utility function exists in three of our repos right now —
+#          the Dagster orchestration code, the dbt runner, and the agent eval framework.
+#          Each copy has drifted slightly. 
+#
+# TASK: You've been asked to extract it into a single
+#       internal shared Python package that all three consume.
+#       Construct the folder / file structure through for the the python package.
 
 import os
 import clickhouse_connect

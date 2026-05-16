@@ -1,7 +1,9 @@
 # Part A — Code Review
 #
-# This is a PR adding a ClickHouse client wrapper to our shared platform library.
-# Review it as you would a real PR — walk through what you'd comment on, block, or approve.
+# CONTEXT: This is a PR adding a ClickHouse (a database) client wrapper to our shared platform library.
+#          Review it as you would a real PR  
+#
+# TASK: Walk through what you'd comment on, block, or approve.
 
 import clickhouse_connect
 from typing import Any
